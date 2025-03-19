@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { ComplexNumber, ArithmeticableCollection } from "../src/mod.ts";
-
+import { ArithmeticableCollection } from "../src/Mod/arithmeticable.ts"
+import { ComplexNumber } from "../src/Mod/complex.ts"
 const complexNumber1 = new ComplexNumber(1, 3);
 const complexNumber2 = new ComplexNumber(2, 6);
 
