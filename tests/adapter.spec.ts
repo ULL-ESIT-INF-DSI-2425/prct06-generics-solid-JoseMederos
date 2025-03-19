@@ -2,6 +2,7 @@ import { describe, expect, test } from "vitest";
 import { RationalNumber } from "../src/Mod/rational.ts";
 import { ComplexNumber } from "../src/Mod/complex.ts"
 import { AdapterRC } from "../src/Mod/adapter.ts"
+
 const complexNumber1 = new ComplexNumber(1, 3);
 const complexNumber2 = new ComplexNumber(2, 6);
 const complexNumber3 = new ComplexNumber(-2, 3);
