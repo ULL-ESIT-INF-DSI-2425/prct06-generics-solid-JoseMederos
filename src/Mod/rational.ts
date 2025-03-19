@@ -9,6 +9,22 @@ export class RationalNumber implements Arithmeticable<RationalNumber> {
   ) {}
 
   /**
+   * Getter del numerador
+   * @returns numerador
+   */
+  getNum() {
+    return this.num;
+  }
+
+  /**
+   * Getter del denominador
+   * @returns denominador
+   */
+  getDen() {
+    return this.den;
+  }
+
+  /**
    * Implementacion del metodo add
    * @param other - segundo operando
    * @returns suma de op y other
