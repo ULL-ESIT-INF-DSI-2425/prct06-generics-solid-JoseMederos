@@ -1,6 +1,6 @@
 import { Arithmeticable } from "./arithmeticable.js";
 /**
- * Clase ComplexNumber que implementa la interfaz Arithmeticable
+ * Clase RationalNumber que implementa la interfaz Arithmeticable
  */
 export class RationalNumber implements Arithmeticable<RationalNumber> {
   constructor(
